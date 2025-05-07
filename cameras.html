@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CamRent - Dark Edition</title>
+  <title>CamRent - Camera Collection</title>
   <style>
     * {
       box-sizing: border-box;
@@ -41,56 +41,6 @@
 
     nav a:hover {
       color: #ff9900;
-    }
-
-    .hero {
-      position: relative;
-      background: url('hero.jpg') center center/cover no-repeat;
-      height: 70vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-    }
-
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0;
-      right: 0; bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      z-index: 0;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
-    }
-
-    .hero h2 {
-      font-size: 3rem;
-      margin-bottom: 15px;
-      color: #ff9900;
-    }
-
-    .hero p {
-      font-size: 1.3rem;
-      margin-bottom: 25px;
-    }
-
-    .hero-btn {
-      background-color: #ff9900;
-      color: #000;
-      padding: 12px 25px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 6px;
-      transition: background 0.3s ease;
-    }
-
-    .hero-btn:hover {
-      background-color: #e67e00;
     }
 
     section {
@@ -156,14 +106,6 @@
         display: block;
         margin: 10px 0;
       }
-
-      .hero h2 {
-        font-size: 2rem;
-      }
-
-      .hero p {
-        font-size: 1rem;
-      }
     }
   </style>
 </head>
@@ -172,28 +114,14 @@
 <header>
   <h1>CamRent</h1>
   <nav>
-    <a href="#home">Home</a>
-    <a href="cameras.html">Cameras</a>
+    <a href="index.html">Home</a>
+    <a href="camera.html">Cameras</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="hero-content">
-    <h2>Capture Brilliance</h2>
-    <p>Top-tier DSLR, Mirrorless, and Action Cameras — Ready When You Are.</p>
-    <a href="#cameras" class="hero-btn">Explore Rentals</a>
-  </div>
-</section>
-
-<section id="home">
-  <h2>Welcome to CamRent</h2>
-  <p>Rent HD professional cameras at unbeatable prices. DSLR, mirrorless, and action cams at your fingertips.</p>
-</section>
-
 <section id="cameras">
-  <h2>Available Cameras</h2>
+  <h2>Our Camera Collection</h2>
   <div class="camera-grid">
     <div class="camera-card">
       <img src="images/1.jpg" alt="Canon EOS R5" />
@@ -213,13 +141,79 @@
       <p>5.3K | Waterproof</p>
       <p><strong>₹1000/day</strong></p>
     </div>
+    <div class="camera-card">
+      <img src="images/4.jpg" alt="Nikon Z7 II" />
+      <h3>Nikon Z7 II</h3>
+      <p>45.7MP | 4K Video</p>
+      <p><strong>₹2800/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/5.jpg" alt="Panasonic Lumix GH5" />
+      <h3>Panasonic Lumix GH5</h3>
+      <p>20.3MP | 4K Video</p>
+      <p><strong>₹2200/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/6.jpg" alt="Fujifilm X-T4" />
+      <h3>Fujifilm X-T4</h3>
+      <p>26MP | 4K Video</p>
+      <p><strong>₹2100/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/7.jpg" alt="Canon EOS 90D" />
+      <h3>Canon EOS 90D</h3>
+      <p>32.5MP | 4K Video</p>
+      <p><strong>₹2000/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/8.jpg" alt="Sony A6400" />
+      <h3>Sony A6400</h3>
+      <p>24.2MP | 4K Video</p>
+      <p><strong>₹1800/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/9.jpg" alt="Olympus OM-D E-M1 Mark III" />
+      <h3>Olympus OM-D E-M1 Mark III</h3>
+      <p>20MP | 4K Video</p>
+      <p><strong>₹2300/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/10.jpg" alt="Blackmagic Design Pocket Cinema Camera 6K" />
+      <h3>Blackmagic 6K</h3>
+      <p>6K Video | Compact Design</p>
+      <p><strong>₹3000/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/11.jpg" alt="Leica Q2" />
+      <h3>Leica Q2</h3>
+      <p>47.3MP | Full Frame</p>
+      <p><strong>₹3500/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/12.jpg" alt="Sony FX3" />
+      <h3>Sony FX3</h3>
+      <p>4K Video | Cinematic</p>
+      <p><strong>₹4000/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/13.jpg" alt="Nikon D850" />
+      <h3>Nikon D850</h3>
+      <p>45.7MP | 4K Video</p>
+      <p><strong>₹2700/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/14.jpg" alt="Canon EOS 1D X Mark III" />
+      <h3>Canon EOS 1D X Mark III</h3>
+      <p>20.1MP | 4K Video</p>
+      <p><strong>₹3500/day</strong></p>
+    </div>
+    <div class="camera-card">
+      <img src="images/15.jpg" alt="GoPro Hero 9" />
+      <h3>GoPro Hero 9</h3>
+      <p>5K Video | Waterproof</p>
+      <p><strong>₹1200/day</strong></p>
+    </div>
   </div>
-</section>
-
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: camrent@example.com</p>
-  <p>Phone: +91-9876543210</p>
 </section>
 
 <footer>
